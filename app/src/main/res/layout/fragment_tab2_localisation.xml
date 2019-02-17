@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bt_db"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingStart="10dp"
+        android:paddingTop="5dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/tv_id_endroit"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.42"
+            android:gravity="center_horizontal"
+            android:text="#ID12GThu7"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+            <Button
+                android:id="@+id/bt_afficher"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/gmap_icon" />
+
+            <Button
+                android:id="@+id/bt_afficheretposuser"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/markerl" />
+
+            <Button
+                android:id="@+id/bt_supprimer"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_close_light" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll1"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/ll2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_nom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="3dp"
+                android:text="Nom" />
+
+            <TextView
+                android:id="@+id/tv_ville"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="3dp"
+                android:text="Ville" />
+
+            <TextView
+                android:id="@+id/tv_adresse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="3dp"
+                android:text="Adresse" />
+
+            <TextView
+                android:id="@+id/tv_codepostal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Code postal" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_latitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="3dp"
+                android:text="Lattitude" />
+
+            <TextView
+                android:id="@+id/tv_longitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="3dp"
+                android:text="Longitude" />
+
+            <TextView
+                android:id="@+id/tv_altitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="3dp"
+                android:text="Altitude" />
+
+            <TextView
+                android:id="@+id/tv_accuracy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Accuracy" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.locationfac.maintabbed.MainTab3_APropos_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/tv_label_prez"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="10dp"
+        android:text="Présentation de l'application LocationFac"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/tv_content_prez"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_label_prez"
+        android:padding="10dp"
+        android:text="LocationFAC regroupe plusieurs fonctionnalitées : \n- Afficher, enregistrer, gérer vos coordonnées de location actuelles \n- Convertir une coordonnées GPS (Latitude, longitude, altitude, accuracy) en adresse (n° rue, rue, code postal, ville) \n- Convertir une adresse (simple chaine) en coordonnées GPS \n- Afficher les coordonnées GPS de vote choix sur une carte Google map- Créer des markers Googlemap et afficher directement leurs coordonnées" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/tv_content_prez">
+
+        <TextView
+            android:id="@+id/tv_label_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="Contacter nous :"
+            android:textColor="@color/colorAccent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/bt_email"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/bt_twitter"
+                android:text="Email LocationFAC" />
+
+            <Button
+                android:id="@+id/bt_fb"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/bt_lienweb"
+                android:text="Facebook LocationFAC" />
+
+            <Button
+                android:id="@+id/bt_lienweb"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Site Web LocationFAC" />
+
+            <Button
+                android:id="@+id/bt_twitter"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/bt_fb"
+                android:layout_alignRight="@+id/bt_fb"
+                android:layout_below="@+id/bt_fb"
+                android:text="Twitter LocationFAC" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt_rec_bdd2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/db"
+                    android:gravity="center_horizontal" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
