@@ -1,4 +1,4 @@
 # favorite_geolocation
 
-- enregitre des endroits géolocalisés
+- enregistre des endroits géolocalisés par leur coord gps
 - démarre un itinéraire pour s'y rendre
