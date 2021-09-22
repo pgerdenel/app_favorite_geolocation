@@ -1,6 +1,6 @@
 # Application mobile 'geolocalisations favorites' 
 
-"A partir de coordonnées GPS, comment permettre à un utilisateur d'être guidé par un système sans accès au réseau et/ou sans données géographiques détaillées sur l'endroit à atteindre"
+__A partir de coordonnées GPS, comment permettre à un utilisateur d'être guidé par un système sans accès au réseau et/ou sans données géographiques détaillées sur l'endroit à atteindre"__
 
 ⚫ Développement d'une application mobile Android native
 
