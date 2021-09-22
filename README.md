@@ -4,7 +4,7 @@
 
 __Développement d'une application mobile Android native__
 
-- JAVA, XML, SQL
+- JAVA, XML, SQLite, MySQL
 - API Google, AsyncTask, Handler, stockage DB SQLite local, stockage DB MySQL distant
 - permet d'enregistrer, partager et retrouver plusieurs endroits uniques. 
 - hébergement DB MySQL chez OVH 
