@@ -1,4 +1,11 @@
-# favorite_geolocation
+# Application mobile 'geolocalisations favorites' 
 
-- enregistre des endroits géolocalisés par leur coord gps
-- démarre un itinéraire pour s'y rendre
+"A partir de coordonnées GPS, comment permettre à un utilisateur d'être guidé par un système sans accès au réseau et/ou sans données géographiques détaillées sur l'endroit à atteindre"
+
+⚫ Développement d'une application mobile Android native
+
+- JAVA, XML, SQL
+- API Google, AsyncTask, Handler, stockage DB SQLite local, stockage DB MySQL distant
+- permet d'enregistrer, partager et retrouver plusieurs endroits uniques. 
+- hébergement des DB chez OVH 
+
