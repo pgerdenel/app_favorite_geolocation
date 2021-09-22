@@ -9,3 +9,5 @@ __Développement d'une application mobile Android native__
 - permet d'enregistrer, partager et retrouver plusieurs endroits uniques. 
 - hébergement DB MySQL chez OVH 
 
+(public version)
+
