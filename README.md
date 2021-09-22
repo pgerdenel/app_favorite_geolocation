@@ -1,8 +1,8 @@
 # Application mobile 'geolocalisations favorites' 
 
-__A partir de coordonnées GPS, comment permettre à un utilisateur d'être guidé par un système sans accès au réseau et/ou sans données géographiques détaillées sur l'endroit à atteindre"__
+*A partir de coordonnées GPS, comment permettre à un utilisateur d'être guidé par un système sans accès au réseau et/ou sans données géographiques détaillées sur l'endroit à atteindre"*
 
-- Développement d'une application mobile Android native
+__Développement d'une application mobile Android native__
 
 - JAVA, XML, SQL
 - API Google, AsyncTask, Handler, stockage DB SQLite local, stockage DB MySQL distant
