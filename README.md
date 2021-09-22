@@ -7,5 +7,5 @@ __A partir de coordonnées GPS, comment permettre à un utilisateur d'être guid
 - JAVA, XML, SQL
 - API Google, AsyncTask, Handler, stockage DB SQLite local, stockage DB MySQL distant
 - permet d'enregistrer, partager et retrouver plusieurs endroits uniques. 
-- hébergement des DB chez OVH 
+- hébergement DB MySQL chez OVH 
 
